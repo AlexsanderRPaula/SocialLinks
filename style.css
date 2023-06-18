@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
@@ -11,6 +12,7 @@
   --sombra: rgb(255, 1, 213);
   --dark-mode: url(./assets/moon-stars.svg);
 }
+
 .branco {
   --text-color: black;
   --bg-url: url(./assets/braco.png);
@@ -19,6 +21,7 @@
   --sombra: rgba(38, 38, 38, 0.849);
   --dark-mode: url(./assets/sun.svg);
 }
+
 body {
   background: var(--bg-url) no-repeat top center/cover;
 }
@@ -26,13 +29,16 @@ body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
+
 #container {
   width: 360px;
   max-width: 588px;
   margin: auto;
   padding-top: 56px;
 }
+
 /*profile*/
+
 #profile {
   text-align: center;
   padding: 24px;
@@ -64,14 +70,17 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 }
+
 .branco #switch button{
   right: initial;
   left: 0;
 }
+
 #switch button:hover{
   outline: 8px solid var(--fundos);
   border: 1px solid var(--sombra);
 }
+
 #switch span{
   display: block;
   width: 64px;
@@ -83,7 +92,10 @@ body * {
  border-radius: 9999px;
  
 }
+
+
 /*links*/
+
 ul {
   list-style: none;
 
@@ -111,6 +123,7 @@ ul li a {
   font-weight: bolder;
   transition: background.2s;
 }
+
 ul li a:hover {
   background: var(--fundos);
   border: 1px solid var(--sombra);
@@ -130,12 +143,14 @@ ul li a:hover {
   justify-content: center;
   padding: 16px;
 }
+
 #social-links a:hover {
   background: var(--fundos);
   border: 1px solid var(--sombra);
   padding: 16px;
   border-radius: 50%;
 }
+
 Footer {
   padding: 24px 0;
   text-align: center;
